@@ -5,8 +5,12 @@
  * and return the total
  *
  */
-
-
+function total(array){
+	let total = 0
+	array.forEach((b) => total += b);
+	return total
+	
+}
 //* Begin of tests
 const assert = require('assert')
 

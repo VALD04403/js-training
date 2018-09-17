@@ -8,7 +8,14 @@
  */
 
 // Your code :
-
+function sameSign(nb1, nb2){
+	if (Math.sign(nb1) == Math.sign(nb2)) {
+	return true
+}   
+	else{
+		return false
+	}
+}
 //* Begin of tests
 const assert = require('assert')
 
